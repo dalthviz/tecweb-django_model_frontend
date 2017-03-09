@@ -1,3 +1,4 @@
+//Bien por el uso de redux
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({

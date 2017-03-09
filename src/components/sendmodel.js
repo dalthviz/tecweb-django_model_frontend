@@ -32,6 +32,7 @@ class SendModel extends Component {
     }).fail((err) => {
       console.log("Errooooorrrrr", err);
     });
+    // Sería bueno borrar este código comentado o especificar porque podría ser utilidad 
     // fetch("http://localhost:8080/api/djmodels", {
     //   mode:'no-cors',
     //   method:"POST",
